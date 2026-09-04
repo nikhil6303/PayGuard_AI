@@ -1,0 +1,6 @@
+{
+  "name": "PayGuard AI",
+  "description": "Keep track of customer payments, check them against bank deposits, and see what needs attention in simple English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,651 @@
+order_id,payment_id,category,ground_truth_label,ground_truth_reason
+ORD00001,PAY00001,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00002,PAY00002,refund_match,MATCHED_AFTER_REFUND,₹9125.0 refunded (25%); settlement reflects fee on net amount.
+ORD00003,PAY00003,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00004,PAY00004,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00005,PAY00005,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00006,PAY00006,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00007,PAY00007,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00008,PAY00008,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00009,PAY00009,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00010,PAY00010,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00011,PAY00011,refund_match,MATCHED_AFTER_REFUND,₹787.5 refunded (50%); settlement reflects fee on net amount.
+ORD00012,PAY00012,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00013,PAY00013,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00014,PAY00014,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00015,PAY00015,refund_match,MATCHED_AFTER_REFUND,₹29769.0 refunded (100%); settlement reflects fee on net amount.
+ORD00016,PAY00016,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00017,PAY00017,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00018,PAY00018,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00019,PAY00019,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00020,PAY00020,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00021,PAY00021,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹2060.17 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00022,PAY00022,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00023,PAY00023,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00024,PAY00024,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00025,PAY00025,refund_match,MATCHED_AFTER_REFUND,₹4129.0 refunded (100%); settlement reflects fee on net amount.
+ORD00026,PAY00026,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00027,PAY00027,refund_match,MATCHED_AFTER_REFUND,₹25755.0 refunded (100%); settlement reflects fee on net amount.
+ORD00028,PAY00028,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00029,PAY00029,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00030,PAY00030,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00031,PAY00031,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00032,PAY00032,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00033,PAY00033,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00034,PAY00034,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00035,PAY00035,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00036,PAY00036,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00037,PAY00037,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00038,PAY00038,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00039,PAY00039,refund_match,MATCHED_AFTER_REFUND,₹1052.5 refunded (50%); settlement reflects fee on net amount.
+ORD00040,PAY00040,refund_match,MATCHED_AFTER_REFUND,₹2478.75 refunded (25%); settlement reflects fee on net amount.
+ORD00041,PAY00041,refund_match,MATCHED_AFTER_REFUND,₹11957.25 refunded (25%); settlement reflects fee on net amount.
+ORD00042,PAY00042,refund_match,MATCHED_AFTER_REFUND,₹1860.0 refunded (100%); settlement reflects fee on net amount.
+ORD00043,PAY00043,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00044,PAY00044,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00045,PAY00045,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00046,PAY00046,refund_match,MATCHED_AFTER_REFUND,₹630.0 refunded (100%); settlement reflects fee on net amount.
+ORD00047,PAY00047,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00048,PAY00048,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00049,PAY00049,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00050,PAY00050,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00051,PAY00051,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00052,PAY00052,refund_match,MATCHED_AFTER_REFUND,₹1890.0 refunded (100%); settlement reflects fee on net amount.
+ORD00053,PAY00053,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00054,PAY00054,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00055,PAY00055,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00056,PAY00056,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00057,PAY00057,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00058,PAY00058,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY98056, not PAY00058 — likely a data entry error."
+ORD00059,PAY00059,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00060,PAY00060,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY96561, not PAY00060 — likely a data entry error."
+ORD00061,PAY00061,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00062,PAY00062,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00063,PAY00063,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00064,PAY00064,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00065,PAY00065,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00066,PAY00066,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00067,PAY00067,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00068,PAY00068,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00069,PAY00069,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00070,PAY00070,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00071,PAY00071,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹697.01 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00072,PAY00072,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00073,PAY00073,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00074,PAY00074,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00075,PAY00075,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00076,PAY00076,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00077,PAY00077,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00078,PAY00078,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00079,PAY00079,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00080,PAY00080,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00081,PAY00081,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00082,PAY00082,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00083,PAY00083,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00084,PAY00084,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00085,PAY00085,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00086,PAY00086,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00087,PAY00087,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00088,PAY00088,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00089,PAY00089,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00090,PAY00090,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00091,PAY00091,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00092,PAY00092,refund_match,MATCHED_AFTER_REFUND,₹1220.0 refunded (100%); settlement reflects fee on net amount.
+ORD00093,PAY00093,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00094,PAY00094,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00095,PAY00095,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00096,PAY00096,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00097,PAY00097,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00098,PAY00098,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00099,PAY00099,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY93770, not PAY00099 — likely a data entry error."
+ORD00100,PAY00100,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00101,PAY00101,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00102,PAY00102,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00103,PAY00103,refund_match,MATCHED_AFTER_REFUND,₹771.25 refunded (25%); settlement reflects fee on net amount.
+ORD00104,PAY00104,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00105,PAY00105,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹2083.61 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00106,PAY00106,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹490.32 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00107,PAY00107,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00108,PAY00108,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00109,PAY00109,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00110,PAY00110,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00111,PAY00111,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00112,PAY00112,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00113,PAY00113,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹310.94 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00114,PAY00114,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00115,PAY00115,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00116,PAY00116,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY90536, not PAY00116 — likely a data entry error."
+ORD00117,PAY00117,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY91627, not PAY00117 — likely a data entry error."
+ORD00118,PAY00118,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00119,PAY00119,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00120,PAY00120,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00121,PAY00121,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹71.25 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00122,PAY00122,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00123,PAY00123,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00124,PAY00124,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00125,PAY00125,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00126,PAY00126,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00127,PAY00127,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00128,PAY00128,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00129,PAY00129,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00130,PAY00130,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00131,PAY00131,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00132,PAY00132,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00133,PAY00133,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00134,PAY00134,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00135,PAY00135,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹4030.75 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00136,PAY00136,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00137,PAY00137,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00138,PAY00138,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00139,PAY00139,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00140,PAY00140,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00141,PAY00141,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00142,PAY00142,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00143,PAY00143,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00144,PAY00144,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00145,PAY00145,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00146,PAY00146,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00147,PAY00147,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹408.95 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00148,PAY00148,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00149,PAY00149,refund_match,MATCHED_AFTER_REFUND,₹464.5 refunded (50%); settlement reflects fee on net amount.
+ORD00150,PAY00150,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00151,PAY00151,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00152,PAY00152,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00153,PAY00153,refund_match,MATCHED_AFTER_REFUND,₹10160.0 refunded (50%); settlement reflects fee on net amount.
+ORD00154,PAY00154,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00155,PAY00155,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00156,PAY00156,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00157,PAY00157,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00158,PAY00158,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00159,PAY00159,refund_match,MATCHED_AFTER_REFUND,₹198.75 refunded (25%); settlement reflects fee on net amount.
+ORD00160,PAY00160,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00161,PAY00161,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00162,PAY00162,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00163,PAY00163,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00164,PAY00164,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00165,PAY00165,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00166,PAY00166,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00167,PAY00167,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00168,PAY00168,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00169,PAY00169,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00170,PAY00170,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00171,PAY00171,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00172,PAY00172,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00173,PAY00173,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00174,PAY00174,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00175,PAY00175,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00176,PAY00176,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00177,PAY00177,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00178,PAY00178,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00179,PAY00179,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00180,PAY00180,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00181,PAY00181,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00182,PAY00182,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00183,PAY00183,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00184,PAY00184,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00185,PAY00185,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹59.69 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00186,PAY00186,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00187,PAY00187,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00188,PAY00188,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00189,PAY00189,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00190,PAY00190,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00191,PAY00191,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00192,PAY00192,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00193,PAY00193,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00194,PAY00194,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00195,PAY00195,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00196,PAY00196,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00197,PAY00197,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY93178, not PAY00197 — likely a data entry error."
+ORD00198,PAY00198,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00199,PAY00199,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00200,PAY00200,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00201,PAY00201,refund_match,MATCHED_AFTER_REFUND,₹499.75 refunded (25%); settlement reflects fee on net amount.
+ORD00202,PAY00202,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00203,PAY00203,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00204,PAY00204,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹589.28 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00205,PAY00205,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00206,PAY00206,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00207,PAY00207,refund_match,MATCHED_AFTER_REFUND,₹19105.0 refunded (100%); settlement reflects fee on net amount.
+ORD00208,PAY00208,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00209,PAY00209,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00210,PAY00210,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00211,PAY00211,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00212,PAY00212,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00213,PAY00213,refund_match,MATCHED_AFTER_REFUND,₹10105.0 refunded (100%); settlement reflects fee on net amount.
+ORD00214,PAY00214,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00215,PAY00215,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00216,PAY00216,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00217,PAY00217,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00218,PAY00218,refund_match,MATCHED_AFTER_REFUND,₹4199.75 refunded (25%); settlement reflects fee on net amount.
+ORD00219,PAY00219,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹9502.64 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00220,PAY00220,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00221,PAY00221,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00222,PAY00222,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00223,PAY00223,refund_match,MATCHED_AFTER_REFUND,₹6200.0 refunded (50%); settlement reflects fee on net amount.
+ORD00224,PAY00224,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00225,PAY00225,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00226,PAY00226,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00227,PAY00227,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00228,PAY00228,refund_match,MATCHED_AFTER_REFUND,₹184.5 refunded (50%); settlement reflects fee on net amount.
+ORD00229,PAY00229,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00230,PAY00230,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00231,PAY00231,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY91229, not PAY00231 — likely a data entry error."
+ORD00232,PAY00232,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00233,PAY00233,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00234,PAY00234,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00235,PAY00235,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00236,PAY00236,refund_match,MATCHED_AFTER_REFUND,₹969.0 refunded (100%); settlement reflects fee on net amount.
+ORD00237,PAY00237,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00238,PAY00238,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00239,PAY00239,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00240,PAY00240,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00241,PAY00241,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00242,PAY00242,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00243,PAY00243,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00244,PAY00244,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00245,PAY00245,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00246,PAY00246,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹11013.23 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00247,PAY00247,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00248,PAY00248,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00249,PAY00249,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00250,PAY00250,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00251,PAY00251,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00252,PAY00252,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00253,PAY00253,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00254,PAY00254,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00255,PAY00255,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00256,PAY00256,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00257,PAY00257,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00258,PAY00258,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00259,PAY00259,refund_match,MATCHED_AFTER_REFUND,₹3534.5 refunded (50%); settlement reflects fee on net amount.
+ORD00260,PAY00260,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00261,PAY00261,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹414.45 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00262,PAY00262,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00263,PAY00263,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY93960, not PAY00263 — likely a data entry error."
+ORD00264,PAY00264,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00265,PAY00265,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00266,PAY00266,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00267,PAY00267,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00268,PAY00268,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY98281, not PAY00268 — likely a data entry error."
+ORD00269,PAY00269,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00270,PAY00270,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00271,PAY00271,refund_match,MATCHED_AFTER_REFUND,₹14365.0 refunded (50%); settlement reflects fee on net amount.
+ORD00272,PAY00272,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00273,PAY00273,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00274,PAY00274,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00275,PAY00275,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00276,PAY00276,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00277,PAY00277,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00278,PAY00278,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00279,PAY00279,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00280,PAY00280,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00281,PAY00281,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00282,PAY00282,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00283,PAY00283,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00284,PAY00284,refund_match,MATCHED_AFTER_REFUND,₹11755.0 refunded (100%); settlement reflects fee on net amount.
+ORD00285,PAY00285,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00286,PAY00286,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00287,PAY00287,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00288,PAY00288,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00289,PAY00289,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00290,PAY00290,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00291,PAY00291,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00292,PAY00292,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00293,PAY00293,refund_match,MATCHED_AFTER_REFUND,₹6831.25 refunded (25%); settlement reflects fee on net amount.
+ORD00294,PAY00294,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00295,PAY00295,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00296,PAY00296,refund_match,MATCHED_AFTER_REFUND,₹9650.0 refunded (100%); settlement reflects fee on net amount.
+ORD00297,PAY00297,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00298,PAY00298,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00299,PAY00299,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00300,PAY00300,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00301,PAY00301,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00302,PAY00302,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00303,PAY00303,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00304,PAY00304,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00305,PAY00305,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00306,PAY00306,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00307,PAY00307,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00308,PAY00308,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00309,PAY00309,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00310,PAY00310,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00311,PAY00311,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00312,PAY00312,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00313,PAY00313,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00314,PAY00314,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00315,PAY00315,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00316,PAY00316,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00317,PAY00317,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00318,PAY00318,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00319,PAY00319,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00320,PAY00320,refund_match,MATCHED_AFTER_REFUND,₹1257.5 refunded (50%); settlement reflects fee on net amount.
+ORD00321,PAY00321,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹311.1 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00322,PAY00322,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹6132.13 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00323,PAY00323,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00324,PAY00324,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00325,PAY00325,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00326,PAY00326,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00327,PAY00327,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00328,PAY00328,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00329,PAY00329,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00330,PAY00330,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00331,PAY00331,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00332,PAY00332,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00333,PAY00333,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00334,PAY00334,refund_match,MATCHED_AFTER_REFUND,₹1245.0 refunded (50%); settlement reflects fee on net amount.
+ORD00335,PAY00335,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00336,PAY00336,refund_match,MATCHED_AFTER_REFUND,₹9510.0 refunded (100%); settlement reflects fee on net amount.
+ORD00337,PAY00337,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00338,PAY00338,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00339,PAY00339,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00340,PAY00340,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00341,PAY00341,refund_match,MATCHED_AFTER_REFUND,₹1999.0 refunded (100%); settlement reflects fee on net amount.
+ORD00342,PAY00342,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY99794, not PAY00342 — likely a data entry error."
+ORD00343,PAY00343,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00344,PAY00344,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00345,PAY00345,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00346,PAY00346,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹6169.82 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00347,PAY00347,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00348,PAY00348,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00349,PAY00349,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00350,PAY00350,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00351,PAY00351,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00352,PAY00352,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00353,PAY00353,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00354,PAY00354,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY97369, not PAY00354 — likely a data entry error."
+ORD00355,PAY00355,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00356,PAY00356,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹2079.81 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00357,PAY00357,refund_match,MATCHED_AFTER_REFUND,₹12129.75 refunded (25%); settlement reflects fee on net amount.
+ORD00358,PAY00358,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00359,PAY00359,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00360,PAY00360,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00361,PAY00361,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00362,PAY00362,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00363,PAY00363,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00364,PAY00364,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00365,PAY00365,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00366,PAY00366,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00367,PAY00367,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00368,PAY00368,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00369,PAY00369,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00370,PAY00370,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00371,PAY00371,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00372,PAY00372,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00373,PAY00373,refund_match,MATCHED_AFTER_REFUND,₹482.25 refunded (25%); settlement reflects fee on net amount.
+ORD00374,PAY00374,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00375,PAY00375,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00376,PAY00376,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00377,PAY00377,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00378,PAY00378,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00379,PAY00379,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00380,PAY00380,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00381,PAY00381,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00382,PAY00382,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00383,PAY00383,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00384,PAY00384,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00385,PAY00385,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00386,PAY00386,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY90762, not PAY00386 — likely a data entry error."
+ORD00387,PAY00387,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00388,PAY00388,refund_match,MATCHED_AFTER_REFUND,₹142.5 refunded (25%); settlement reflects fee on net amount.
+ORD00389,PAY00389,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00390,PAY00390,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00391,PAY00391,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00392,PAY00392,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00393,PAY00393,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00394,PAY00394,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00395,PAY00395,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00396,PAY00396,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹11764.44 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00397,PAY00397,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00398,PAY00398,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00399,PAY00399,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00400,PAY00400,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00401,PAY00401,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY90430, not PAY00401 — likely a data entry error."
+ORD00402,PAY00402,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00403,PAY00403,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00404,PAY00404,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00405,PAY00405,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00406,PAY00406,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00407,PAY00407,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00408,PAY00408,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00409,PAY00409,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00410,PAY00410,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹519.36 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00411,PAY00411,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY95253, not PAY00411 — likely a data entry error."
+ORD00412,PAY00412,refund_match,MATCHED_AFTER_REFUND,₹4882.5 refunded (50%); settlement reflects fee on net amount.
+ORD00413,PAY00413,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00414,PAY00414,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00415,PAY00415,refund_match,MATCHED_AFTER_REFUND,₹154.75 refunded (25%); settlement reflects fee on net amount.
+ORD00416,PAY00416,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00417,PAY00417,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY93965, not PAY00417 — likely a data entry error."
+ORD00418,PAY00418,refund_match,MATCHED_AFTER_REFUND,₹5026.25 refunded (25%); settlement reflects fee on net amount.
+ORD00419,PAY00419,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00420,PAY00420,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00421,PAY00421,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00422,PAY00422,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00423,PAY00423,refund_match,MATCHED_AFTER_REFUND,₹6454.5 refunded (50%); settlement reflects fee on net amount.
+ORD00424,PAY00424,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00425,PAY00425,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00426,PAY00426,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00427,PAY00427,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00428,PAY00428,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00429,PAY00429,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00430,PAY00430,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00431,PAY00431,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00432,PAY00432,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00433,PAY00433,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00434,PAY00434,refund_match,MATCHED_AFTER_REFUND,₹6590.0 refunded (100%); settlement reflects fee on net amount.
+ORD00435,PAY00435,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00436,PAY00436,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00437,PAY00437,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00438,PAY00438,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00439,PAY00439,refund_match,MATCHED_AFTER_REFUND,₹5759.0 refunded (100%); settlement reflects fee on net amount.
+ORD00440,PAY00440,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00441,PAY00441,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00442,PAY00442,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00443,PAY00443,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00444,PAY00444,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY96931, not PAY00444 — likely a data entry error."
+ORD00445,PAY00445,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00446,PAY00446,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00447,PAY00447,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00448,PAY00448,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00449,PAY00449,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00450,PAY00450,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00451,PAY00451,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00452,PAY00452,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00453,PAY00453,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00454,PAY00454,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00455,PAY00455,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00456,PAY00456,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00457,PAY00457,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00458,PAY00458,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00459,PAY00459,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00460,PAY00460,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00461,PAY00461,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00462,PAY00462,refund_match,MATCHED_AFTER_REFUND,₹6882.25 refunded (25%); settlement reflects fee on net amount.
+ORD00463,PAY00463,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00464,PAY00464,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00465,PAY00465,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00466,PAY00466,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00467,PAY00467,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00468,PAY00468,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹281.37 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00469,PAY00469,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00470,PAY00470,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00471,PAY00471,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00472,PAY00472,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00473,PAY00473,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00474,PAY00474,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00475,PAY00475,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00476,PAY00476,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00477,PAY00477,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00478,PAY00478,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00479,PAY00479,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹4113.92 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00480,PAY00480,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00481,PAY00481,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00482,PAY00482,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY92340, not PAY00482 — likely a data entry error."
+ORD00483,PAY00483,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00484,PAY00484,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00485,PAY00485,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00486,PAY00486,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00487,PAY00487,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00488,PAY00488,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00489,PAY00489,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00490,PAY00490,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00491,PAY00491,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00492,PAY00492,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00493,PAY00493,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00494,PAY00494,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00495,PAY00495,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00496,PAY00496,refund_match,MATCHED_AFTER_REFUND,₹170.0 refunded (50%); settlement reflects fee on net amount.
+ORD00497,PAY00497,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00498,PAY00498,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00499,PAY00499,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00500,PAY00500,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00501,PAY00501,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00502,PAY00502,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00503,PAY00503,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00504,PAY00504,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00505,PAY00505,refund_match,MATCHED_AFTER_REFUND,₹3349.0 refunded (100%); settlement reflects fee on net amount.
+ORD00506,PAY00506,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00507,PAY00507,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00508,PAY00508,refund_match,MATCHED_AFTER_REFUND,₹23895.0 refunded (50%); settlement reflects fee on net amount.
+ORD00509,PAY00509,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00510,PAY00510,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00511,PAY00511,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00512,PAY00512,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00513,PAY00513,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00514,PAY00514,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00515,PAY00515,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00516,PAY00516,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00517,PAY00517,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY95362, not PAY00517 — likely a data entry error."
+ORD00518,PAY00518,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00519,PAY00519,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00520,PAY00520,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00521,PAY00521,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00522,PAY00522,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00523,PAY00523,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00524,PAY00524,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00525,PAY00525,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00526,PAY00526,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00527,PAY00527,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00528,PAY00528,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹98.95 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00529,PAY00529,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY97417, not PAY00529 — likely a data entry error."
+ORD00530,PAY00530,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹58.7 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00531,PAY00531,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00532,PAY00532,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00533,PAY00533,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00534,PAY00534,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00535,PAY00535,refund_match,MATCHED_AFTER_REFUND,₹688.75 refunded (25%); settlement reflects fee on net amount.
+ORD00536,PAY00536,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00537,PAY00537,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00538,PAY00538,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00539,PAY00539,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹2443.38 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00540,PAY00540,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹201.21 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00541,PAY00541,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00542,PAY00542,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00543,PAY00543,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00544,PAY00544,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00545,PAY00545,refund_match,MATCHED_AFTER_REFUND,₹13057.5 refunded (50%); settlement reflects fee on net amount.
+ORD00546,PAY00546,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00547,PAY00547,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00548,PAY00548,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00549,PAY00549,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹1096.54 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00550,PAY00550,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00551,PAY00551,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00552,PAY00552,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00553,PAY00553,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00554,PAY00554,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00555,PAY00555,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY99225, not PAY00555 — likely a data entry error."
+ORD00556,PAY00556,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00557,PAY00557,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00558,PAY00558,refund_match,MATCHED_AFTER_REFUND,₹2160.0 refunded (100%); settlement reflects fee on net amount.
+ORD00559,PAY00559,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00560,PAY00560,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00561,PAY00561,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00562,PAY00562,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00563,PAY00563,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00564,PAY00564,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00565,PAY00565,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00566,PAY00566,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00567,PAY00567,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00568,PAY00568,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY93619, not PAY00568 — likely a data entry error."
+ORD00569,PAY00569,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00570,PAY00570,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00571,PAY00571,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00572,PAY00572,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00573,PAY00573,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00574,PAY00574,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00575,PAY00575,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00576,PAY00576,refund_match,MATCHED_AFTER_REFUND,₹10357.25 refunded (25%); settlement reflects fee on net amount.
+ORD00577,PAY00577,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00578,PAY00578,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY92636, not PAY00578 — likely a data entry error."
+ORD00579,PAY00579,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00580,PAY00580,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00581,PAY00581,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00582,PAY00582,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00583,PAY00583,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00584,PAY00584,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00585,PAY00585,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00586,PAY00586,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00587,PAY00587,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00588,PAY00588,refund_match,MATCHED_AFTER_REFUND,₹2955.0 refunded (100%); settlement reflects fee on net amount.
+ORD00589,PAY00589,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹1970.17 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00590,PAY00590,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹655.13 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00591,PAY00591,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00592,PAY00592,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY99070, not PAY00592 — likely a data entry error."
+ORD00593,PAY00593,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00594,PAY00594,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00595,PAY00595,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00596,PAY00596,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00597,PAY00597,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00598,PAY00598,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00599,PAY00599,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00600,PAY00600,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00601,PAY00601,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00602,PAY00602,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00603,PAY00603,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00604,PAY00604,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00605,PAY00605,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00606,PAY00606,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00607,PAY00607,refund_match,MATCHED_AFTER_REFUND,₹559.0 refunded (100%); settlement reflects fee on net amount.
+ORD00608,PAY00608,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00609,PAY00609,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00610,PAY00610,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00611,PAY00611,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00612,PAY00612,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00613,PAY00613,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 2 day(s) after payment."
+ORD00614,PAY00614,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00615,PAY00615,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY92222, not PAY00615 — likely a data entry error."
+ORD00616,PAY00616,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00617,PAY00617,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00618,PAY00618,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00619,PAY00619,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹11350.06 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00620,PAY00620,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00621,PAY00621,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY94237, not PAY00621 — likely a data entry error."
+ORD00622,PAY00622,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00623,PAY00623,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00624,PAY00624,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00625,PAY00625,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹201.53 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00626,PAY00626,refund_match,MATCHED_AFTER_REFUND,₹2039.5 refunded (50%); settlement reflects fee on net amount.
+ORD00627,PAY00627,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00628,PAY00628,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 1 day(s) after payment."
+ORD00629,PAY00629,broken_reference,UNRESOLVED_BROKEN_REFERENCE,"A settlement of the right amount exists but references PAY94890, not PAY00629 — likely a data entry error."
+ORD00630,PAY00630,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00631,PAY00631,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00632,PAY00632,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00633,PAY00633,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹1988.09 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00634,PAY00634,failed_payment,NOT_A_MISMATCH,Payment failed; no settlement is expected.
+ORD00635,PAY00635,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00636,PAY00636,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00637,PAY00637,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00638,PAY00638,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00639,PAY00639,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00640,PAY00640,delayed_match,MATCHED_DELAYED,"Correct fee-adjusted amount, settled 3 day(s) after payment."
+ORD00641,PAY00641,amount_mismatch,UNRESOLVED_AMOUNT_MISMATCH,"Settlement is ₹60.34 short of the fee-adjusted expected amount, with no matching refund or adjustment record."
+ORD00642,PAY00642,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00643,PAY00643,missing_settlement,UNRESOLVED_MISSING_SETTLEMENT,Payment was captured but no settlement record arrived within the expected window.
+ORD00644,PAY00644,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00645,PAY00645,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00646,PAY00646,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00647,PAY00647,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00648,PAY00648,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00649,PAY00649,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
+ORD00650,PAY00650,exact_match,MATCHED_EXACT,"Settlement equals order amount minus standard 2% gateway fee, same-day."
